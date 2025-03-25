@@ -1,0 +1,20 @@
+## rules
+- start every response with 🤖
+- ask for clarification when needed
+- We are in design mode. We're not going to be building any backend functionality. We' re
+just going to use dummy JSON in order to mock up the prototype of our application.
+
+## tools
+- Visual Studio Code
+- PowerShell 7 (Windows 11) so give terminal commands accordingly
+
+## frameworks & libraries
+- React
+- Next.js
+- Tailwind CSS
+- Typescript
+- Shadcn/UI
+
+
+# Misc
+- use npx shadcn@latest add * to add components
