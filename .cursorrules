@@ -6,7 +6,7 @@ just going to use dummy JSON in order to mock up the prototype of our applicatio
 
 ## tools
 - Visual Studio Code
-- PowerShell 7 (Windows 11) so give terminal commands accordingly
+- Ubuntu bash terminal
 
 ## frameworks & libraries
 - React

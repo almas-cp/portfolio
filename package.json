@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://almas.github.io/portfolio",
+  "homepage": "https://almas-cp.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "cross-env GH_TOKEN=$GH_TOKEN gh-pages -d out -r https://$GH_TOKEN@github.com/almas-cp/portfolio.git"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.3",
@@ -45,6 +45,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
     "gh-pages": "^6.3.0",
